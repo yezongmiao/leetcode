@@ -41,3 +41,8 @@ class Solution1(object):
             pre=pre.next
         pre.next=l1 if l1 is None else l2
         return prehead
+
+l1 = [9,9,9,9,9,9,9]
+l2 = [9,9,9,9]
+sol=Solution1()
+print(sol.mergeTwoLists(l1,l2))
